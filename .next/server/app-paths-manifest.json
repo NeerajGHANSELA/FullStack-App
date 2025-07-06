@@ -1,3 +1,11 @@
 {
-  "/page": "app/page.js"
+  "/api/video/token/route": "app/api/video/token/route.js",
+  "/page": "app/page.js",
+  "/sign-in/[[...sign-in]]/page": "app/sign-in/[[...sign-in]]/page.js",
+  "/sign-up/[[...sign-up]]/page": "app/sign-up/[[...sign-up]]/page.js",
+  "/userHome/page": "app/userHome/page.js",
+  "/videoConference/homePage/page": "app/videoConference/homePage/page.js",
+  "/videoConference/meeting/[id]/page": "app/videoConference/meeting/[id]/page.js",
+  "/videoConference/previous/page": "app/videoConference/previous/page.js",
+  "/videoConference/upcoming/page": "app/videoConference/upcoming/page.js"
 }

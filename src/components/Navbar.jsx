@@ -31,69 +31,6 @@ export default function Navbar() {
 
             {/* Navigation Links */}
             <ul className='flex space-x-6 text-lg'>
-                {/* Abou us navigation link. */}
-                <motion.li
-                    whileHover={{ 
-                        scale: 1.1,
-                        transition: { duration: 0.2 },
-                    }}
-                    whileTap={{ scale: 0.9 }}
-                >
-                    <Link 
-                        href="/about" 
-                        className='inline-block hover:scale-110 hover:text-black transition-transform transform duration-200 font-normal text-[#495057]'
-                    > 
-                        About Us
-                    </Link>
-                </motion.li>
-                
-                {/* Contact navigation link. */}
-                <motion.li
-                    whileHover={{ 
-                        scale: 1.1,
-                        transition: { duration: 0.2 },
-                    }}
-                    whileTap={{ scale: 0.9 }}
-                >
-                    <Link 
-                        href="/contact-us" 
-                        className='inline-block hover:scale-110 hover:text-black transition-transform transform duration-200 font-normal text-[#495057]'
-                    >
-                        Contact Us
-                    </Link>
-                </motion.li>
-
-                {/* Pricing navigation link. */}
-                <motion.li
-                    whileHover={{ 
-                        scale: 1.1,
-                        transition: { duration: 0.2 },
-                    }}
-                    whileTap={{ scale: 0.9 }}
-                >
-                    <Link 
-                        href="/pricing" 
-                        className='inline-block hover:scale-110 hover:text-black transition-transform transform duration-200 font-normal text-[#495057]'
-                    >
-                        Pricing
-                    </Link>
-                </motion.li>
-
-                {/* Demo navigation link. */}
-                <motion.li
-                    whileHover={{ 
-                        scale: 1.1,
-                        transition: { duration: 0.2 },
-                    }}
-                    whileTap={{ scale: 0.9 }}
-                >
-                    <Link 
-                        href="/demo" 
-                        className='inline-block hover:scale-110 hover:text-black transition-transform transform duration-200 font-normal text-[#495057]'
-                    >
-                        Demo
-                    </Link>
-                </motion.li>
 
                 {/* Sign in link. */}
                 <motion.li
