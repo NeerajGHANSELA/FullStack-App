@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/neera/Desktop/Website/src/app/page.css"],"sourcesContent":[".image-3d-wrapper {\n    perspective: 1000px;    /* Depth of the 3d surface. */\n}\n\n.image-3d {\n    transform-style: preserve-3d;   /* Preserve 3D space for the image. */\n    animation: rotate3d 5s linear infinite; /* duration of one full spin is 5 sec, with constant speed and loops forever.*/\n}\n\n.custom-shadow {\n    box-shadow: 5px 10px 20px rgba(125, 56, 125, 0.4);\n} \n\n@keyframes rotate3d {\n    0% {\n        transform: rotateX(0deg) rotateY(0deg) rotateZ(10deg); /* At the start, the image is unrotated. */\n    }\n    100% {\n        transform: rotateX(0deg) rotateY(360deg) rotateZ(10deg);   /*  At the end, image is rotated 360 degrees. */\n    }\n}"],"names":[],"mappings":"AAAA;;;;AAIA;;;;;AAKA;;;;AAIA","debugId":null}}]
+}

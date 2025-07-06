@@ -1,0 +1,26 @@
+/* [project]/src/app/page.css [app-client] (css) */
+.image-3d-wrapper {
+  perspective: 1000px;
+}
+
+.image-3d {
+  transform-style: preserve-3d;
+  animation: 5s linear infinite rotate3d;
+}
+
+.custom-shadow {
+  box-shadow: 5px 10px 20px #7d387d66;
+}
+
+@keyframes rotate3d {
+  0% {
+    transform: rotateX(0)rotateY(0)rotateZ(10deg);
+  }
+
+  100% {
+    transform: rotateX(0)rotateY(360deg)rotateZ(10deg);
+  }
+}
+
+
+/*# sourceMappingURL=src_app_page_909bcf69.css.map*/

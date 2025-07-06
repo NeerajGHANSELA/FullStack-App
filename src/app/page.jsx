@@ -16,7 +16,7 @@ export default function Home() {
   const isLg = useMediaQuery({ minWidth: 1024 });
   
   return (
-    <div className='flex flex-col items-center justify-center gap-8 mt-30'>
+    <div className='flex flex-col items-center justify-center gap-8 mt-30 mb-15 lg:mb-5'>
 
       <Navbar />
 
@@ -42,12 +42,16 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 0.4 }}
               className='text-base sm:text-lg text-gray-500  leading-relaxed mb-6 sm:mb-8 max-w-lg mx-auto sm:mx-0'
             >
-              Interact with lifelike, {' '}
-              <span className='text-black'>AI-powered interviewers</span> {' '}
-              in realistic, deep learning {' '}
-              <span className='text-black'>simulations</span> {' '} that {' '}
-              <span className='text-black'>mimic real-world hiring scenarios</span>
-              . Get instant feedback and master your skills.
+              <span className='text-black'>Sharpen</span> {' '}
+              your {' '}
+              <span className='text-black'>interview skills</span> {' '}
+              through {' '}
+              <span className='text-black'>guided practice</span> {' '}
+              sessions, {' '}
+              <span className='text-black'>instant feedback</span>
+              , and {' '}
+              <span className='text-black'>progress tracking</span> {' '}
+               - so you walk into every hiring round fully prepared.
             </motion.p>
 
             <div 
@@ -111,8 +115,8 @@ export default function Home() {
             viewport={{ amount: 0.5 }}
             className='text-base font-normal font-mono leading-8 md:leading-10 sm:text-lg md:text-xl text-gray-600 tracking-wider'
           >
-            From pinpointing unconscious tics {' '}
-            (um's, uh's, eye-aversion) to fine-tuning your pitch, InterviewPrep gives you direct, AI-driven feedback so every next attempt is sharper than the last.
+            Continuously refine your delivery with targeted feedback - so you are {' '}
+            <span className='lg:flex lg:justify-self-center'>always one step closer to your next win.</span>
             
           </motion.p>
 
@@ -179,9 +183,7 @@ export default function Home() {
               viewport={{ once: false }}
               className='text-base/relaxed md:text-md lg:text-lg'
             >
-              Most mock-interview tools stop at the words you speak or type—but real interviews are about so much more. With text-based
-              platforms, you can endlessly delete and rewrite your answers, a luxury you'll never have face-to-face. <br />
-              Voice-only apps pick up your tone and pacing, but they still ignore the unspoken pressures of the room
+              Most practice platforms stop at your words — text tools let you endlessly edit responses, and voice-only apps catch your tone but miss the real-world dynamics you will face in person.
             </motion.p>
           </div>
         </motion.div>
@@ -210,7 +212,7 @@ export default function Home() {
             viewport={{ once: false }}
             className='text-base/relaxed md:text-md lg:text-lg'
           >
-            Split-second eye contact, the tiny “um” that betrays your nerves, the posture and gestures that broadcast confidence before you even begin. Such non-verbal cues are not just important—they can make or break your first impression. 
+            Split-second eye contact, the tiny “um” that betrays your nerves, the posture and gestures that broadcast confidence before you even begin. Such non-verbal cues are not just important — they can make or break your first impression. 
           </motion.p>
         </motion.div>
 
@@ -241,7 +243,7 @@ export default function Home() {
               viewport={{ once: false }}
               className='text-base/relaxed md:text-md lg:text-lg'
             >
-              True preparation means stepping into the interview environment long before you walk through the door. That's why we built InterviewPrep—to bridge the gap between practice and real-world hiring settings.
+              Immersing yourself in authentic interview scenarios long before the big day turns preparation into performance — InterviewPrep makes every practice matter. Vary your question paths to sharpen your responsiveness. Walk into every room with the confidence of someone who's already been here before.
             </motion.p>
           </div>
         </motion.div>
@@ -285,10 +287,11 @@ export default function Home() {
               viewport={{ once: false, amount: 0.1 }}
               className='text-[#495057] md:text-md lg:text-lg'
             >
-              Simulates a live, {' '}
-              <span className='text-black font-medium'>Zoom-style interview</span> {' '}
-              so you can practice answering questions in a {' '} 
-              <span className='text-black font-medium'>realistic environment</span>.
+              Recreates a {' '}
+              <span className='text-black font-medium'>real-time interview</span> {' '}
+              setting so you can {' '}
+              <span className='text-black font-medium'>sharpen your responses under authentic conditions</span>
+              .
             </motion.p>
           </motion.div>
               
@@ -330,8 +333,9 @@ export default function Home() {
               viewport={{ once: false, amount: 0.1 }}
               className='text-[#495057] md:text-md lg:text-lg'
             >
-              <span className='text-black font-medium'>Examines your verbal responses</span> {' '}
-               for clarity, structure, and relevance, plus vocal tone and pacing.
+              <span className='text-black font-medium'>Provides feedback</span> {' '}
+               to make your spoken answers clear, well-organized, and confidently delivered.
+              
             </motion.p>
           </motion.div>
 
@@ -374,11 +378,8 @@ export default function Home() {
                 viewport={{ once: false, amount: 0.1 }}
                 className='text-[#495057] md:text-md lg:text-lg'
               >
-                <span className='text-black font-medium'>Tracks eye contact</span>, {' '} 
-                <span className='text-black font-medium'>facial expressions</span>, {' '}
-                <span className='text-black font-medium'>posture</span>, and {' '}
-                <span className='text-black font-medium'>gestures</span> {' '}
-                to highlight strengths and areas to improve.
+                <span className='text-black font-medium'>Delivers actionable guidance</span> {'' }
+                to polish your presence and elevate your delivery.
               </motion.p>
           </motion.div>
 
@@ -419,15 +420,15 @@ export default function Home() {
                 )
               }}
               viewport={{ once: false, amount: 0.1 }}
-              className='text-[#495057] md:text-md lg:text-lg'>
-              Delivers {' '}
-              <span className='text-black font-medium'>detailed dashboard</span> {' '}
-              <span className='text-black font-medium'>showing</span> {' '}
-              your {' '}
-              <span className='text-black font-medium'>growth</span> {' '}
-              over time, flags {' '}
-              <span className='text-black font-medium'>recurring issues</span>
-              , and tailors future sessions to your needs.
+              className='text-[#495057] md:text-md lg:text-lg'
+            >
+              Offers {' '}
+              <span className='text-black font-medium'>ongoing insights</span> {' '}
+              into your performance, {' '}
+              <span className='text-black font-medium'>highlights areas to revisit</span>
+              , and suggests {' '}
+              <span className='text-black font-medium'>tailored next steps</span> {' '}
+               to keep you moving forward.
             </motion.p>
           </motion.div>
         </div>

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":["file:///Users/neera/Desktop/Website/src/components/ui/sonner.jsx"],"sourcesContent":["\"use client\"\n\nimport { useTheme } from \"next-themes\";\nimport { Toaster as Sonner } from \"sonner\";\n\n\nconst Toaster = ({\n  ...props\n}) => {\n  const { theme = \"system\" } = useTheme()\n\n  return (\n    <Sonner\n      theme={theme}\n      className=\"toaster group\"\n      toastOptions={{\n        classNames: {\n          toast: 'text-white border-none !bg-[#010B13]',\n          title: 'text-md font-semibold',\n        },\n      }}\n      {...props} \n    />\n  );\n}\n\nexport { Toaster }\n"],"names":[],"mappings":";;;;AAEA;AACA;AAHA;;;;AAMA,MAAM,UAAU,CAAC,EACf,GAAG,OACJ;IACC,MAAM,EAAE,QAAQ,QAAQ,EAAE,GAAG,CAAA,GAAA,gJAAA,CAAA,WAAQ,AAAD;IAEpC,qBACE,8OAAC,wIAAA,CAAA,UAAM;QACL,OAAO;QACP,WAAU;QACV,cAAc;YACZ,YAAY;gBACV,OAAO;gBACP,OAAO;YACT;QACF;QACC,GAAG,KAAK;;;;;;AAGf","debugId":null}}]
+}
