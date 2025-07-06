@@ -1,0 +1,21 @@
+.image-3d-wrapper {
+    perspective: 1000px;    /* Depth of the 3d surface. */
+}
+
+.image-3d {
+    transform-style: preserve-3d;   /* Preserve 3D space for the image. */
+    animation: rotate3d 5s linear infinite; /* duration of one full spin is 5 sec, with constant speed and loops forever.*/
+}
+
+.custom-shadow {
+    box-shadow: 5px 10px 20px rgba(125, 56, 125, 0.4);
+} 
+
+@keyframes rotate3d {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(10deg); /* At the start, the image is unrotated. */
+    }
+    100% {
+        transform: rotateX(0deg) rotateY(360deg) rotateZ(10deg);   /*  At the end, image is rotated 360 degrees. */
+    }
+}
