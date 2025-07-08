@@ -24,7 +24,7 @@ export default function PersonalRoom() {
   const client = useStreamVideoClient();
   const router = useRouter();
 
-  const meetingLink = `${process.env.NEXT_PUBLIC_BASE_URL}/videoConference/meeting/${meetingID}?personal=true`;
+  const meetingLink = `https://${process.env.NEXT_PUBLIC_BASE_URL}/videoConference/meeting/${meetingID}?personal=true`;
 
   const { call } = useGetCallbyID(meetingID);
 
