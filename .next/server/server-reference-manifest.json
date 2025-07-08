@@ -10,8 +10,8 @@
           "moduleId": "[project]/.next-internal/server/app/sign-in/[[...sign-in]]/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false
         },
-        "app/userHome/page": {
-          "moduleId": "[project]/.next-internal/server/app/userHome/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+        "app/sign-up/[[...sign-up]]/page": {
+          "moduleId": "[project]/.next-internal/server/app/sign-up/[[...sign-up]]/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false
         },
         "app/videoConference/homePage/page": {
@@ -22,7 +22,7 @@
       "layer": {
         "app/page": "action-browser",
         "app/sign-in/[[...sign-in]]/page": "action-browser",
-        "app/userHome/page": "action-browser",
+        "app/sign-up/[[...sign-up]]/page": "action-browser",
         "app/videoConference/homePage/page": "action-browser"
       }
     },
@@ -36,8 +36,8 @@
           "moduleId": "[project]/.next-internal/server/app/sign-in/[[...sign-in]]/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false
         },
-        "app/userHome/page": {
-          "moduleId": "[project]/.next-internal/server/app/userHome/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+        "app/sign-up/[[...sign-up]]/page": {
+          "moduleId": "[project]/.next-internal/server/app/sign-up/[[...sign-up]]/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false
         },
         "app/videoConference/homePage/page": {
@@ -48,7 +48,7 @@
       "layer": {
         "app/page": "action-browser",
         "app/sign-in/[[...sign-in]]/page": "action-browser",
-        "app/userHome/page": "action-browser",
+        "app/sign-up/[[...sign-up]]/page": "action-browser",
         "app/videoConference/homePage/page": "action-browser"
       }
     },
@@ -62,8 +62,8 @@
           "moduleId": "[project]/.next-internal/server/app/sign-in/[[...sign-in]]/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false
         },
-        "app/userHome/page": {
-          "moduleId": "[project]/.next-internal/server/app/userHome/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+        "app/sign-up/[[...sign-up]]/page": {
+          "moduleId": "[project]/.next-internal/server/app/sign-up/[[...sign-up]]/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false
         },
         "app/videoConference/homePage/page": {
@@ -74,7 +74,7 @@
       "layer": {
         "app/page": "action-browser",
         "app/sign-in/[[...sign-in]]/page": "action-browser",
-        "app/userHome/page": "action-browser",
+        "app/sign-up/[[...sign-up]]/page": "action-browser",
         "app/videoConference/homePage/page": "action-browser"
       }
     },
@@ -88,8 +88,8 @@
           "moduleId": "[project]/.next-internal/server/app/sign-in/[[...sign-in]]/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false
         },
-        "app/userHome/page": {
-          "moduleId": "[project]/.next-internal/server/app/userHome/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+        "app/sign-up/[[...sign-up]]/page": {
+          "moduleId": "[project]/.next-internal/server/app/sign-up/[[...sign-up]]/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false
         },
         "app/videoConference/homePage/page": {
@@ -100,7 +100,7 @@
       "layer": {
         "app/page": "action-browser",
         "app/sign-in/[[...sign-in]]/page": "action-browser",
-        "app/userHome/page": "action-browser",
+        "app/sign-up/[[...sign-up]]/page": "action-browser",
         "app/videoConference/homePage/page": "action-browser"
       }
     }

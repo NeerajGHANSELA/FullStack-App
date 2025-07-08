@@ -2,6 +2,6 @@
   "/api/video/token/route": "app/api/video/token/route.js",
   "/page": "app/page.js",
   "/sign-in/[[...sign-in]]/page": "app/sign-in/[[...sign-in]]/page.js",
-  "/userHome/page": "app/userHome/page.js",
+  "/sign-up/[[...sign-up]]/page": "app/sign-up/[[...sign-up]]/page.js",
   "/videoConference/homePage/page": "app/videoConference/homePage/page.js"
 }
