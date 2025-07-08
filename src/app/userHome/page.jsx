@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { useRouter } from 'next/navigation';
+import { motion } from 'framer-motion';
 import { SignedIn, UserButton } from '@clerk/nextjs';
 
 export default function UserHome() {
@@ -15,11 +16,14 @@ export default function UserHome() {
     return (
         <div className='flex flex-col items-center justify-center gap-4'>
             <h1 className='text-2xl text-bold'>User's Home Page!!!</h1>
-            <button 
+            <motion.button 
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 0.8 }}
                 onClick={handleClick}
-                className='block px-6 py-3 rounded-2xl bg-blue-400 cursor-pointer'>
-                Check out Video Conference 
-            </button>
+                className='block px-6 py-3 rounded-2xl bg-blue-400 cursor-pointer'
+            >
+                Check out Video Conference ➡️
+            </motion.button>
 
             <h1 className='text-2xl font-bold mt-10'>User's Homepage in Progress ...</h1>
         </div>

@@ -3,7 +3,5 @@
   "/page": "app/page.js",
   "/sign-in/[[...sign-in]]/page": "app/sign-in/[[...sign-in]]/page.js",
   "/userHome/page": "app/userHome/page.js",
-  "/videoConference/homePage/page": "app/videoConference/homePage/page.js",
-  "/videoConference/meeting/[id]/page": "app/videoConference/meeting/[id]/page.js",
-  "/videoConference/personalRoom/page": "app/videoConference/personalRoom/page.js"
+  "/videoConference/homePage/page": "app/videoConference/homePage/page.js"
 }
