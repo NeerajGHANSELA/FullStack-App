@@ -83,7 +83,6 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --color-red-500: oklch(63.7% .237 25.331);
     --color-green-500: oklch(72.3% .219 149.579);
-    --color-blue-400: oklch(70.7% .165 254.624);
     --color-rose-50: oklch(96.9% .015 12.422);
     --color-gray-400: oklch(70.7% .022 261.325);
     --color-gray-500: oklch(55.1% .027 264.364);
@@ -1008,10 +1007,6 @@
     .bg-black\/50 {
       background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
     }
-  }
-
-  .bg-blue-400 {
-    background-color: var(--color-blue-400);
   }
 
   .bg-green-500 {
