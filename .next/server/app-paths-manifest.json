@@ -1,6 +1,3 @@
 {
-  "/api/video/token/route": "app/api/video/token/route.js",
-  "/page": "app/page.js",
-  "/sign-in/[[...sign-in]]/page": "app/sign-in/[[...sign-in]]/page.js",
-  "/videoConference/homePage/page": "app/videoConference/homePage/page.js"
+  "/page": "app/page.js"
 }

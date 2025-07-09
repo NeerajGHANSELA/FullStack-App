@@ -1036,7 +1036,7 @@ function Home() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid gap-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 sm:gap-5 sm:grid-rows-2",
+                        className: "grid gap-3 items-start sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 sm:gap-5 sm:grid-rows-2",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                                 initial: {
@@ -1097,7 +1097,7 @@ function Home() {
                                             once: false,
                                             amount: 0.1
                                         },
-                                        className: "text-[#495057] md:text-md lg:text-lg",
+                                        className: "text-[#495057] md:text-md lg:text-lg lg:mb-8",
                                         children: [
                                             "Recreates a ",
                                             ' ',
@@ -1194,7 +1194,7 @@ function Home() {
                                             once: false,
                                             amount: 0.1
                                         },
-                                        className: "text-[#495057] md:text-md lg:text-lg",
+                                        className: "text-[#495057] md:text-md lg:text-lg lg:mb-8",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-black font-medium",
@@ -1255,8 +1255,11 @@ function Home() {
                                         viewport: {
                                             once: false
                                         },
+                                        style: {
+                                            transformOrigin: 'top center'
+                                        },
                                         className: "font-bold text-color sm:text-lg md:text-xl lg:text-2xl",
-                                        children: "Non-Verbal Cue Evaluation"
+                                        children: "Interaction Dynamics Review"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/page.jsx",
                                         lineNumber: 355,
@@ -1282,15 +1285,15 @@ function Home() {
                                             once: false,
                                             amount: 0.1
                                         },
-                                        className: "text-[#495057] md:text-md lg:text-lg",
+                                        className: "text-[#495057] md:text-md lg:text-lg lg:mb-15",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-black font-medium",
                                                 children: "Delivers actionable guidance"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.jsx",
-                                                lineNumber: 381,
-                                                columnNumber: 17
+                                                lineNumber: 382,
+                                                columnNumber: 15
                                             }, this),
                                             " ",
                                             '',
@@ -1298,8 +1301,8 @@ function Home() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/page.jsx",
-                                        lineNumber: 369,
-                                        columnNumber: 15
+                                        lineNumber: 370,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
@@ -1347,7 +1350,7 @@ function Home() {
                                         children: "Personalized Progress Tracking & Insights"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/page.jsx",
-                                        lineNumber: 399,
+                                        lineNumber: 400,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -1379,7 +1382,7 @@ function Home() {
                                                 children: "ongoing insights"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.jsx",
-                                                lineNumber: 426,
+                                                lineNumber: 427,
                                                 columnNumber: 15
                                             }, this),
                                             " ",
@@ -1391,7 +1394,7 @@ function Home() {
                                                 children: "highlights areas to revisit"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.jsx",
-                                                lineNumber: 428,
+                                                lineNumber: 429,
                                                 columnNumber: 15
                                             }, this),
                                             ", and suggests ",
@@ -1401,7 +1404,7 @@ function Home() {
                                                 children: "tailored next steps"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/page.jsx",
-                                                lineNumber: 430,
+                                                lineNumber: 431,
                                                 columnNumber: 15
                                             }, this),
                                             " ",
@@ -1410,13 +1413,13 @@ function Home() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/page.jsx",
-                                        lineNumber: 413,
+                                        lineNumber: 414,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/page.jsx",
-                                lineNumber: 387,
+                                lineNumber: 388,
                                 columnNumber: 11
                             }, this)
                         ]

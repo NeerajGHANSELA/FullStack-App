@@ -262,7 +262,7 @@ export default function Home() {
           What InterviewPrep provides
         </motion.h2>
 
-        <div className='grid gap-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 sm:gap-5 sm:grid-rows-2'>
+        <div className='grid gap-3 items-start sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 sm:gap-5 sm:grid-rows-2'>
           {/* First block. */}
           <motion.div 
             initial={{ opacity: 0, scale: 0.2 }}
@@ -285,7 +285,7 @@ export default function Home() {
               whileInView={{ opacity: 1, scale: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.2 }}
               viewport={{ once: false, amount: 0.1 }}
-              className='text-[#495057] md:text-md lg:text-lg'
+              className='text-[#495057] md:text-md lg:text-lg lg:mb-8'
             >
               Recreates a {' '}
               <span className='text-black font-medium'>real-time interview</span> {' '}
@@ -331,7 +331,7 @@ export default function Home() {
                 )
               }}
               viewport={{ once: false, amount: 0.1 }}
-              className='text-[#495057] md:text-md lg:text-lg'
+              className='text-[#495057] md:text-md lg:text-lg lg:mb-8'
             >
               <span className='text-black font-medium'>Provides feedback</span> {' '}
                to make your spoken answers clear, well-organized, and confidently delivered.
@@ -362,25 +362,26 @@ export default function Home() {
                 )                
               }}
               viewport={{ once: false }}
+              style={{ transformOrigin: 'top center' }}
               className='font-bold text-color sm:text-lg md:text-xl lg:text-2xl'
             >
-              Non-Verbal Cue Evaluation
+              Interaction Dynamics Review
             </motion.h3>
-              <motion.p 
-                initial={{ opacity: 0, scale: 0.2, y: 50 }}
-                whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                transition={{ duration: 0.7, 
-                  delay: (isLg 
-                    ? 1.0 // if large screen, delay 1.0sec
-                    : (isMd ? 0.2 : 0.2)  // if medium screen, delay 0.2sec. Otherwise, small screen, delay 0.2sec
-                  )
-                }}
-                viewport={{ once: false, amount: 0.1 }}
-                className='text-[#495057] md:text-md lg:text-lg'
-              >
-                <span className='text-black font-medium'>Delivers actionable guidance</span> {'' }
-                to polish your presence and elevate your delivery.
-              </motion.p>
+            <motion.p 
+              initial={{ opacity: 0, scale: 0.2, y: 50 }}
+              whileInView={{ opacity: 1, scale: 1, y: 0 }}
+              transition={{ duration: 0.7, 
+                delay: (isLg 
+                  ? 1.0 // if large screen, delay 1.0sec
+                  : (isMd ? 0.2 : 0.2)  // if medium screen, delay 0.2sec. Otherwise, small screen, delay 0.2sec
+                )
+              }}
+              viewport={{ once: false, amount: 0.1 }}
+              className='text-[#495057] md:text-md lg:text-lg lg:mb-15'
+            >
+              <span className='text-black font-medium'>Delivers actionable guidance</span> {'' }
+              to polish your presence and elevate your delivery.
+            </motion.p>
           </motion.div>
 
           {/* Fourth block. */}
